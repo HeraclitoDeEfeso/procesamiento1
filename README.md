@@ -56,7 +56,7 @@ rellenando con ceros.
 	<span style="display:block; text-align:center">![
 		s(t) = 	2cos(t)	para t en (0, 2π)
 			0	en otro caso
-	](https://latex.codecogs.com/png.image?\dpi{110}%20s(t)=\left\{\begin{matrix}2\cos%20t&\text{si&space;}t\in(0,2\pi)\\\0&\text{en%20otro%20caso}\end{matrix}\right.)
+	](https://latex.codecogs.com/png.image?s(t)=\left\{\begin{matrix}2\cos%20t&\text{si%20}t\in(0,2\pi)\\\0&\text{en%20otro%20caso}\end{matrix}\right.)
 	en el intervalo (−5π;5π). Graficar en dicho intervalo:
 
 	-  s(−t)
