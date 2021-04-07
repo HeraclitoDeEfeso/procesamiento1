@@ -9,11 +9,11 @@
 
 _TODO_
 
-- [ ] Agregar enunciado original.
+- [X] Agregar enunciado original.
 - [ ] Agregar notebook vacia.
 - [ ] Agregar modelo de exportacion en latex.
 - [ ] Agregar script de exportación.
-- [ ] Pasar fórmulas a latex.
+- [X] Pasar fórmulas a latex.
 - [ ] Pasar enunciados a notebook.
 
 Resolver
@@ -53,29 +53,22 @@ rellenando con ceros.
 12. Implementar una función que, dada una señal de entrada s(t), devuelva la señal escalada s(kt).
 
 13. Generar la función
-s(t) =
-�
-2cost
-si t ∈ (0,2π)
-0
-en otro caso
-en el intervalo (−5π;5π). Graficar en dicho intervalo:
-s(−t)
-s(t −2π)
-s(t +2π)
-s(−t +π)
-s(4t)
-s
-� 1
-4 t
-�
-s
-�
-− 1
-2 t
-�
-Deben mostrarse las funciones en ocho subplots de la misma ventana de gráfica, indicando en
-respectivas etiquetas que función es cada una.
+	<span style="display:block; text-align:center">![
+		s(t) = 	2cos(t)	para t en (0, 2π)
+			0	en otro caso
+	](https://latex.codecogs.com/png.image?\dpi{110}%20s(t)=\left\{\begin{matrix}2\cos%20t&\text{si&space;}t\in(0,2\pi)\\0&\text{en%20otro%20caso}\end{matrix}\right.)
+	en el intervalo (−5π;5π). Graficar en dicho intervalo:
+
+	-  s(−t)
+	-  s(t −2π)
+	-  s(t +2π)
+	-  s(−t +π)
+	-  s(4t)
+	-  s(1/4 t)
+	−  s(1/2 t)
+
+	Deben mostrarse las funciones en ocho subplots de la misma ventana de gráfica, indicando en
+	respectivas etiquetas que función es cada una.
 
 14. En el punto anterior, ajustar el eje t de las gráficas para que lo muestre en escala de π.
 
