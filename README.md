@@ -3,12 +3,12 @@
 ### Trabajo Práctico N°1
 
 
-| Archivo         | Descripción 
-|-                |-
-| Readme.md       | Este archivo
-| tp1.ipynb       | Jupyter Notebook con el trabajo práctico
-| auxnb.py        | Módulo Python con funciones auxiliares para la presentación
-| practica1.py    | Módulo Python con las funciones de la práctica
+| Archivo         | Descripción                                                 |
+|-----------------|-------------------------------------------------------------|
+| Readme.md       | Este archivo                                                |
+| tp1.ipynb       | Jupyter Notebook con el trabajo práctico                    |
+| auxnb.py        | Módulo Python con funciones auxiliares para la presentación |
+| practica1.py    | Módulo Python con las funciones de la práctica              |
 
 _TODO_
 
