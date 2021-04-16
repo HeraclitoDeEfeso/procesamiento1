@@ -23,7 +23,7 @@ Resolver
 - [X] 1. Implementar una función que, dada la frecuencia de muestreo y una cantidad de muestras, de-
 vuelva la duración en el tiempo de una señal con dichas características.
 
-- [ ] 2. Implementar una función que calcule el valor medio de una señal.
+- [X] 2. Implementar una función que calcule el valor medio de una señal.
 
 - [ ] 3. Implementar una función que construya la señal escalón u[t] con 5 segundos de duración y una
 frecuencia de muestreo f s = 5, y la grafique en el intervalo (−2,5;2,5).
