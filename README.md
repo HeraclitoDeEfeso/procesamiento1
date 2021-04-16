@@ -14,7 +14,7 @@ _TODO_
 
 - [X] Agregar enunciado original.
 - [X] Agregar notebook vacia.
-- [ ] Agregar modelo de exportacion en latex.
+- [ ] Agregar modelo de exportación en latex.
 - [ ] Agregar script de exportación.
 - [X] Pasar fórmulas a latex.
 
