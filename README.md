@@ -55,11 +55,12 @@ rellenando con ceros.
 - [ ] 12. Implementar una función que, dada una señal de entrada s(t), devuelva la señal escalada s(kt).
 
 - [ ] 13. Generar la función
+
 	<span style="display:block; text-align:center">![
 		s(t) = 	2cos(t)	para t en (0, 2π)
 			0	en otro caso
-	](https://latex.codecogs.com/png.image?s(t)=\left\{\begin{matrix}2\cos%20t&\text{si%20}t\in(0,2\pi)\\\0&\text{en%20otro%20caso}\end{matrix}\right.)
-	</span>
+	](https://latex.codecogs.com/png.image?s(t)=%5Cleft%5C%7B%5Cbegin%7Bmatrix%7D2%5Ccos(t)&%5Ctext%7Bsi%7D%7B%5Cquad%7Dt%5Cin(0,2%5Cpi)%5C%5C0&%5Ctext%7Ben%5C;otro%5C;caso%7D%5Cend%7Bmatrix%7D%5Cright.)</span>
+	
 	en el intervalo (−5π;5π). Graficar en dicho intervalo:
 
 	-  s(−t)
