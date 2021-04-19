@@ -25,10 +25,10 @@ vuelva la duración en el tiempo de una señal con dichas características.
 
 - [X] 2. Implementar una función que calcule el valor medio de una señal.
 
-- [ ] 3. Implementar una función que construya la señal escalón u[t] con 5 segundos de duración y una
+- [X] 3. Implementar una función que construya la señal escalón u[t] con 5 segundos de duración y una
 frecuencia de muestreo f s = 5, y la grafique en el intervalo (−2,5;2,5).
 
-- [ ] 4. Graficar la señal anterior en el intervalo (−1;1)
+- [X] 4. Graficar la señal anterior en el intervalo (−1;1)
 
 - [ ] 5. Implementar una función que construya la recta y = mx +b y la grafique en el intervalo (−5;5). m
 y b deben ser parámetros de entrada.
