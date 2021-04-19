@@ -10,6 +10,8 @@
     de la materia Procesamiento de Señales dictada en la UNTREF
     en el ciclo lectivo de 2021.
 """
+from matplotlib.pyplot import stem, xlim
+from numpy import linspace
 
 
 def duration(signal):
@@ -77,7 +79,27 @@ def sample(func, frec, init, dur):
     :rtype: tuple(list(), float, float)
     """
     return (
-        [func(init + t * frec) for t in range(int(frec * dur) + 1)],
+        [func(init + t / frec) for t in range(int(frec * dur) + 1)],
         frec,
         init,
+    )
+
+
+def graph(signal, xlimit=None):
+    """
+    Gráfica de una señal
+
+        :param signal: señal a graficar
+        :type signal: tuple(list(float), float, float)
+        :param xlim: límites de representación de abscisas
+        :type xlim: tuple(float, float), optional
+    """
+    if xlimit:
+        xlim(xlimit)
+    stem(
+        linspace(
+            signal[2], signal[2] + duration(signal), len(signal[0])
+        ),
+        signal[0],
+        linefmt = '--',
     )
